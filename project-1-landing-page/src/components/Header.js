@@ -5,6 +5,7 @@ const Header = () => {
   return (
     <nav>
         <h1>Landing Page</h1>
+        <p>A demo landing page</p>
         <main> 
             <Link to={"/"}> Home </Link>
             <Link to={"/contact"}> Contact  </Link>
