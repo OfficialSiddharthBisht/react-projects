@@ -9,11 +9,12 @@ export const ColorModeSwitcher = props => {
 
   return (
     <IconButton
-      size="md"
-      fontSize="lg"
-      aria-label={`Switch to ${text} mode`}
       variant="ghost"
       color="current"
+      pos={"fixed"}
+      top= {"4"}
+      // chakra 1 unit = 4px therefore 4*4 = 16px
+      right={"4"}
       marginLeft="2"
       onClick={toggleColorMode}
       icon={<SwitchIcon />}
