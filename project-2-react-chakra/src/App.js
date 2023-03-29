@@ -1,10 +1,11 @@
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Header from './components/Header';
 
 function App() {
   return (
    <Router>
-    <h1>Hello World</h1>
+    <Header />
     <Routes>
       <Route />
     </Routes>
