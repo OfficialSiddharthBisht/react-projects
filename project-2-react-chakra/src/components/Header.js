@@ -37,7 +37,7 @@ const Header = () => {
       <Drawer isOpen={isOpen} placement="left" onClose={onClose}>
         <DrawerOverlay />
         <DrawerContent>
-          <DrawerHeader>Lorem, ipsum.</DrawerHeader>
+          <DrawerHeader>Landing Page Chakra.</DrawerHeader>
           <DrawerBody>
             {/* default direction column */}
             <VStack>
@@ -50,9 +50,9 @@ const Header = () => {
               {/* <Button onClick={onClose} variant={'ghost'} colorScheme={'purple'}>
                 <Link to={'/about?category=free'}>Free Videos</Link>
               </Button> */}
-              <Button onClick={onClose} variant={'ghost'} colorScheme={'purple'}>
+              {/* <Button onClick={onClose} variant={'ghost'} colorScheme={'purple'}>
                 <Link to={'/random'}>Random</Link>
-              </Button>
+              </Button> */}
             </VStack>
 
             {/* default direction row */}
