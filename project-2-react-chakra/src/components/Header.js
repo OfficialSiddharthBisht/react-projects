@@ -47,12 +47,12 @@ const Header = () => {
               <Button onClick={onClose} variant={'ghost'} colorScheme={'purple'}>
                 <Link to={'/about'}>About</Link>
               </Button>
-              <Button onClick={onClose} variant={'ghost'} colorScheme={'purple'}>
-                <Link to={'/about?category=free'}>Free Videos</Link>
-              </Button>
               {/* <Button onClick={onClose} variant={'ghost'} colorScheme={'purple'}>
-                <Link to={'/upload'}>Upload Video</Link>
+                <Link to={'/about?category=free'}>Free Videos</Link>
               </Button> */}
+              <Button onClick={onClose} variant={'ghost'} colorScheme={'purple'}>
+                <Link to={'/random'}>Random</Link>
+              </Button>
             </VStack>
 
             {/* default direction row */}
