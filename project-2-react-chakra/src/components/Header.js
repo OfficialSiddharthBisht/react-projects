@@ -45,14 +45,14 @@ const Header = () => {
                 <Link to={'/'}>Home</Link>
               </Button>
               <Button onClick={onClose} variant={'ghost'} colorScheme={'purple'}>
-                <Link to={'/videos'}>Videos</Link>
+                <Link to={'/about'}>About</Link>
               </Button>
               <Button onClick={onClose} variant={'ghost'} colorScheme={'purple'}>
-                <Link to={'/videos?category=free'}>Free Videos</Link>
+                <Link to={'/about?category=free'}>Free Videos</Link>
               </Button>
-              <Button onClick={onClose} variant={'ghost'} colorScheme={'purple'}>
+              {/* <Button onClick={onClose} variant={'ghost'} colorScheme={'purple'}>
                 <Link to={'/upload'}>Upload Video</Link>
-              </Button>
+              </Button> */}
             </VStack>
 
             {/* default direction row */}
